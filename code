@@ -1,0 +1,58 @@
+<h1> Registration Form </h1>
+<form action="users" method="POST">
+    @csrf
+  
+<label for="First name"><b>First name</b></label><br>
+    <input type="first name" placeholder="enter first name"   required><br><br>
+
+    <label for="last name"><b>last name</b></label><br>
+    <input type="last name" placeholder="last name "  required><br><br>
+    
+    <label for="email"><b>Email</b></label><br>
+    <input type="text" placeholder="Enter Email"  required><br><br>
+
+    <label for="psw"><b>Password</b></label><br>
+    <input type="password" placeholder="Enter Password"  required><br><br>
+
+    <label for="Date of birth"><b>date of birth</b></label><br>
+  <input type="date" id="date of birth" name="date of birth"><br><br>
+
+  <label for="Gender"><b>Gender</b></label><br>
+
+  <input type="radio" id="male" name="male" value="Male">
+  <label for="Male">Male</label><br>
+  <input type="radio" id="Female" name="female" value="Female">
+  <label for="Female">Female</label><br><br>
+
+<label for="Annual income"><b>Annual income</b></label><br>
+  <input type="box" id="Annual income" name="income"><br><br>
+
+  <label for="occupation"><b>Occupation</b></label><br>
+  <input type="radio" id="Private job" name="Private job" value="Private job">
+  <label for="Private job">Private job</label><br>
+  <input type="radio" id="Govt Job" name="Govt Job" value="Govt Job">
+  <label for="Govt Job">Govt Job</label><br>
+<input type="radio" id="Business" name="Business" value="Business">
+  <label for="Business">Business</label><br><br>
+
+
+<label for="Family Type"><b>Family Type</b></label><br>
+<input type="radio" id="Joint" name="Joint-family" value="Joint">
+  <label for="Joint">Joint Family</label><br>
+  <input type="radio" id="Nuclear-Family" name="Nuclear-Family" value="Nuclear-Family">
+  <label for="Nuclear-Family">Nuclear-Family</label><br><br>
+
+<label for="Manglik"><b>Manglik</b></label><br>
+
+<input type="radio" id="Yes" value="Yes">
+  <label for="Joint">Yes</label><br>
+  <input type="radio" id="No"  value="No">
+  <label for="Nuclear-Family">No</label><br><br>
+
+<button type="submit" >Login</button>
+  
+  
+</form>
+
+</body>
+</html>
